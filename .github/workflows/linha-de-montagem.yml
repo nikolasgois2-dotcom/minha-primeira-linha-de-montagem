@@ -22,9 +22,9 @@ jobs:
       - name: 3. Estação de Teste (Controle de Qualidade)
         run: echo "Rodando os testes automatizados... Verificando se a porta abre e fecha!"
 
-        - name: 4. Empacotar o produto final (Artefato)
-          uses: actions/upload-artifact@v3
-          with:
-          name: pacote-do-produto
-          path: produto.txt
+      - name: 4. Empacotar o produto final (Artefato)
+        uses: actions/upload-artifact@v3
+        with:
+        name: pacote-do-produto
+        path: produto.txt
 
